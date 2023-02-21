@@ -4,7 +4,7 @@
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="mb-8 pb-8 md:flex md:items-center md:justify-between">
         <social-buttons/>
-        <p class="mt-8 text-base text-gray-100 md:mt-0 md:order-1">&copy; 2022 linked - All rights reserved.</p>
+        <p class="mt-8 text-base text-gray-100 md:mt-0 md:order-1">&copy; {{ new Date().getFullYear() }} linked - All rights reserved.</p>
       </div>
       <div class="pb-8 xl:grid xl:grid-cols-5 xl:gap-8">
         <div class="grid grid-cols-2 gap-8 xl:col-span-4">
